@@ -9,10 +9,10 @@ Key Features: <br />
 ✅ Personalized Assistance: Adapts to user preferences and offers tailored recommendations. <br />
 ✅ Seamless Integration: Works with APIs, third-party apps, and platforms for enhanced functionality.
 
-![Alt Text](https://github.com/roushankumark/Gemini/blob/main/src/assets/Gemini%20Image/1.png)
-![Alt Text](https://github.com/roushankumark/Gemini/blob/main/src/assets/Gemini%20Image/2.png)
-![Alt Text](https://github.com/roushankumark/Gemini/blob/main/src/assets/Gemini%20Image/3.png)
-![Alt Text](https://github.com/roushankumark/Gemini/blob/main/src/assets/Gemini%20Image/4.png)
+![Alt Text](https://github.com/roushankumark/Gemini/blob/master/src/assets/Gemini%20Image/1.png)
+![Alt Text](https://github.com/roushankumark/Gemini/blob/master/src/assets/Gemini%20Image/2.png)
+![Alt Text](https://github.com/roushankumark/Gemini/blob/master/src/assets/Gemini%20Image/3.png)
+![Alt Text](https://github.com/roushankumark/Gemini/blob/master/src/assets/Gemini%20Image/4.png)
 
 
 Use Cases:
