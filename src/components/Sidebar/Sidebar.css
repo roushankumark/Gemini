@@ -1,0 +1,99 @@
+.sidebar{
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #f0f4f9; */
+    background-color: black;
+    padding: 25px 15px;
+}
+/* .sidebar img{
+    width: 20px;
+} */
+
+.sidebar img {
+    width: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.sidebar img:hover {
+    transform: scale(1.2) rotate(20deg);
+}
+
+.sidebar .menu{
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sidebar .new-chat{
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    /* background-color: #e6eaf1; */
+    background-color: #282828;
+    border-radius: 50px;
+    font-size: 14px;
+    /* color: gray; */
+    color: #DBDBDB;
+    cursor: pointer;
+}
+.sidebar .new-chat:hover{
+    /* background-color: #dfe4ea; */
+    background-color: #181818;
+}
+
+.sidebar .recent{
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 1.5s;
+    gap: 5px;
+}
+
+.sidebar .recent-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.sidebar .recent-entry {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #DBDBDB;
+    background: rgba(255, 255, 255, 0.1); /* Adds a translucent effect */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.sidebar .recent-entry:hover {
+    background: linear-gradient(45deg, #4facfe, #00f2fe); /* Glowing hover effect */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 255, 255, 0.5);
+}
+
+
+.sidebar .bottom{
+    display: flex;
+    flex-direction: column;
+    color: #c4c7c5;
+    gap: 5px;
+}
+
+.sidebar .bottom-item{
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+    .sidebar{
+        display: none;
+    }
+}
